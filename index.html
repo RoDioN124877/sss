@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="master.css">
+    <meta charset="utf-8">
+    <title>Snxkrs</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <div id="header">
+
+      <div id="text_1">SNXKRS</div>
+
+      <ul id="nav">
+        <li><a class="meny" href="index.html">Главная</a></li>
+        <li><a class="meny" href="store.html">Каталог</a></li>
+        <li><a class="meny" href="#service_all">Услуги</a></li>
+        <li><a class="meny" href="#o_nas">Информация</a></li>
+        <li><a id="last_meny" class="meny"  href="#o_nas_txt3">Контакты</a></li>
+      </ul>
+     </div>
+
+
+     <div id="mane_1">
+
+       <img class="img_mane_1" id="img_mane_1" src="img\i.jpeg">  <img  id="img_mane_2" class ="img_mane_1" src="img\i.jpeg">
+
+       <div id="mane_txt">
+         <h1 id="mane_txt_text">Welcome</h1>
+         <h3 id="mane_txt_text2">sreetwear & casual</h3>
+         <h3 id="mane_txt_text3">complete your wardrobe with us</h3>
+         <a href="store.html" id="button_1">Start Now</a>
+       </div>
+    </div>
+
+
+<div id="service_all">
+
+<div id="first_service" class="service">
+<img id="serces_icon1" class="serces_icon" src="img\icon_serves\icon_delevery.png" alt="">
+<div id="serces_txt_1" class="serces_txt" >Доставка</div>
+<div id="serces_txt2_1" class="serces_txt2">Доставка по городу Астана осуществляется в течение нескольких часов, и наша компания может предоставить собственного курьера либо отправить другими возможными сервисами. По остальным городам Казахстана период доставки составляет 5-10 дней (в зависимости от вашего региона), так же сумма варьируется от веса и конченого пункта доставки.</div>
+</div>
+
+<div class="service">
+<img class="serces_icon" id="serces_icon2" src="img\icon_serves\icon_fly.png" alt="">
+<div id="serces_txt_2" сlass="serces_txt" >Оформление заказа</div>
+<div id="serces_txt2_2" class="serces_txt2">Обратившись в наш Instagram аккаунт или оставив запрос на сайте, наша команда поможет вам осуществить заказ и привести любую вещь в кратчайшие сроки по 100% предоплате, прямиком из регионов: США, Россия, Беларусь, Украина.</div>
+</div>
+
+<div id="last_service" class="service">
+<img class="serces_icon" id="serces_icon3" src="img\icon_serves\icon_opt.png" alt="">
+<div id="serces_txt_3" class="serces_txt" >Оптовая закупка</div>
+<div id="serces_txt2_3" class="serces_txt2">В нашем магазине имеется услуга оптового заказа по ниже рыночной стоимости тех товаров которые находятся у нас в каталоге и присутствуют в наличии, сумма оптовой поставки зависит от количества приобретаемых вещей. Всю дальнейшую информацию вы можете получить написав нам.</div>
+</div>
+
+</div>
+
+<div id="o_nas">
+<div id="o_nas_txt">О НАШЕМ МАГАЗИНЕ</div>
+<div id="o_nas_txt2">В магазине «SNXKRS» вы всегда можете подобрать себе модный образ, ведь актуальные тенденции в нашей коллекции представлены самыми стильными моделями. Подбирая ассортимент, мы стремимся вдохновить наших клиентов быть лучшей версией себя и чувствовать себя уверенно.Наша концепция — это микс из моды, динамики и устремленности в будущее. Ее отражение вы найдете в каждой нашей вещи и каждом аксессуаре. Ознакомьтесь с нашим каталогом.
+</div>
+<div id="o_nas_txt3">Покупки в магазине «SNXKRS» подарят вам прекрасные образы и отличное настроение.</div>
+</div>
+
+<div id="contakt">Контакты
+<div class="nadcontakt2">Поддержка:</div>
+<div class="contakt2">snxkrs.kz@gmail.com</div>
+<a id="ig" href="https://www.instagram.com/snxkrs.kz/" target="_blank" class="contakt2">IG: snxkrs.kz</a>
+
+
+<div class="nadcontakt2">Сотрудничество:</div>
+<div class="contakt2">kstvnm@gmail.com</div>
+<a id="ig" href="https://www.instagram.com/kstnvm/" target="_blank" class="contakt2">IG: kstnvm</a>
+<a id="ig" href="tel:+7778733459" class="contakt2" >+7 (778) 739 34-59</a>
+</div>
+
+<div id="obratnayasvyz">
+
+  <div class="nadobrat">Обратная связь</div>
+  <form onsubmit="event.preventDefault();checkForm(this)" id="mane_form "action="teleg.php" method="post">
+
+    <div class="obr_strok">
+      <div id="name_user">Имя</div>
+      <input placeholder="Введите ваше Имя" name="user_name" type="text" id="name_input" required >
+    </div>
+    <div class="obr_strok">
+      <div id="surname_user">Фамилия</div>
+      <input placeholder="Введите вашу Фамилию" name="user_surname" type="text" id="surname_input" required >
+    </div>
+
+
+    <div class="obr_strok2">
+      <div id="tel_user">Номер телефона</div>
+      <input placeholder="Добавить Номер телефона" name="user_phone" type="tel" id="tel_input" required>
+    </div>
+
+    <div class="obr_strok2">
+      <div id="Em_user">Эл. Почта</div>
+      <input placeholder="Добавить Эл. Почту" name="user_email" type="email" id="Em_input" required>
+    </div><br><br><br><br><br><br>
+    <div id="obr_strok3">
+        <div id="tema_user">Тема</div>
+        <input placeholder="Введите Тему" name="user_tema1"type="text" id="tema_input">
+    </div>
+    <div id="soobshenie_user">Сообщение</div>
+    <textarea placeholder="Добавьте сообщение..."name="soobshenie" rows="3" cols="50"id="soobshenie_input" required></textarea>
+    <div id="error"></div>
+    <button type="submit" id="button_2">Отправить</button>
+  </form>
+</div>
+
+
+<div id="footer"><div>site creator: <a style="color: azure;" href="https://www.instagram.com/rodion_ch/" target="_blank">Rodin Chubarov<a> For cooperation questions, click on the name or write to rodiob.ch12@bk.ru</div>
+  <div>создатель сайта: <a style="color: azure;" href="https://www.instagram.com/rodion_ch/" target="_blank">Родин Чубаров<a> для вопросов сотруднечиства кликните на имя или пишите на почту rodiob.ch12@bk.ru </div>
+  <div>с вами была компания SNXKRS.kz спасибо что остаетесь с нами</div>
+  </div>
+<img src="img\Без имени-1.png" alt="">
+
+<script src="js.js"></script>
+
+
+  </body>
+</html>

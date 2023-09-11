@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap');
+
+body
+{
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+ scroll-behavior: smooth;
+}
+#header
+{
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color:#1C1C1C;
+}
+
+#header2
+{
+
+  width: 100%;
+  height: 100px;
+  background-color:#1C1C1C;
+}
+
+#text_1
+{
+  float: left;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-top: 25px;
+  color: white;
+}
+#nav
+{
+  margin-top: 40px;
+  float:right;
+  color: white;
+  text-decoration: none;
+}
+#nav li
+{
+  color: white;
+  background-color: #1C1C1C	;
+  margin: 0px;
+  display: inline;
+  padding: 0px 10px;
+  cursor: pointer;
+
+}
+.meny
+{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+#nav li:hover
+{
+  color: #fff;
+opacity: 0.8;
+transition: 0.3s;
+}
+
+*
+{
+  font-family: 'Oswald', sans-serif;
+ scroll-behavior: smooth;
+}
+
+
+
+#icon_corsina
+{
+  width: 55px;
+  height: 50px;
+  background-image: url("img\icons canestro2.png");
+}
+
+#icon_corsina:hover
+{
+cursor: pointer;
+}
+
+#button_corsina
+{
+  float:right;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-left:  20px;
+  background-color: #1C1C1C;
+  border: 0px;
+}
+
+#ball
+{
+  position: absolute;
+  left: 1858px;
+  top: 52px;
+  float: right;
+  color: white;
+  z-index: 2;
+  background:url('img\4354908.png');
+}
+
+#ball:hover
+{
+  cursor: pointer;
+}
+
+
+.img_mane_1
+{
+  float: left;
+  height: 680px;
+  width:50%;
+  background-repeat: repeat;
+}
+
+#mane_txt
+{
+    position: absolute;
+    top: 250px;
+    left:35%;
+    float: left;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 300px;
+}
+
+#mane_txt_text
+{
+  color: white;
+  font-weight:lighter;
+  font-size: 50px;
+  position: absolute;
+  top: 0px;
+  left: 205px;
+}
+#mane_txt_text2
+{
+  color: white;
+  font-weight:lighter;
+  padding-left: 210px;
+  position: absolute;
+  top: 100px;
+  font-size: 20px;
+}
+
+
+#mane_txt_text3
+{
+  position: absolute;
+  top: 120px;
+  font-size: 20px;
+  color: white;
+  font-weight:lighter;
+  padding-left: 170px;
+}
+
+#button_1
+{
+  background-color: #CCCCFF;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding-top: 20px;
+  border: 1px solid black;
+  position: absolute;
+  top: 190px;
+  left: 202px;
+  color: black;
+  text-decoration: none;
+}
+
+#button_1:hover
+{
+  border: 1px solid #CCCCFF;
+  transition: 0.5s;
+  color: #CCCCFF;
+  background-color: black;
+  cursor: pointer;
+
+}
+
+
+
+.service
+{
+  color: white;
+  text-align: center;
+  float: left;
+  width: 300px;
+  height: 100px;
+  margin: 50px;
+  color: white;
+  font-size:30px;
+  padding-top: 50px;
+}
+
+#first_service
+{
+  margin-left: 22%;
+}
+#service_all
+{
+  float: left;
+  background-color: black;
+  width: 100%;
+  height:100%;
+}
+
+.serces_icon
+{
+  float: left;
+  margin-bottom: 100px;
+  margin-left: 70px;
+  width: 110px;
+  height: 110px;
+
+}
+.serces_txt
+{  float: left;
+
+  margin-top: -100px;
+
+}
+
+#serces_txt_1
+{
+  margin-left: 10px;
+}
+.serces_txt2
+{  float: left;
+
+  opacity: 0.8;
+  font-size: 15px;
+  width: 250px;
+  margin-top: -50px;
+}
+
+#serces_icon1
+{
+    float: left;
+
+}
+
+#serces_icon2
+{  float: left;
+
+}
+
+#serces_icon3
+{  float: left;
+
+}
+
+#serces_txt2_2
+{  float: left;
+
+}
+#serces_txt2_3
+{  float: left;
+
+
+}
+#serces_txt_1
+{  float: left;
+
+  margin-left: 75px;
+
+}
+
+#serces_txt_2
+{
+  float: left;
+  margin-left: 20px;
+  margin-top: -100px;
+}
+#serces_txt_3
+{  float: left;
+
+  margin-left: 30px;
+
+}
+
+#o_nas
+{
+  background-color: black;
+  float: left;
+  color: white;
+  text-align: center;
+margin-top: 100px;
+}
+#o_nas_txt
+{
+  height: 50px;
+  padding-top: 50px;
+  font-size: 30px;
+  border-top: 1px solid white;
+  margin-top: 200px;
+}
+#o_nas_txt2
+{
+  font-size: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+#o_nas_txt3
+{
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+
+
+#contakt,#obratnayasvyz
+{
+  margin-top: 50px;
+  float: left;
+  background-color: #000;
+  border-top: 1px solid white;
+  width: 50%;
+  height: 1000px;
+  color: white;
+}
+#contakt
+{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+.nadcontakt2
+{
+  margin-top: 25px;
+  color: white;
+  font-size: 30px;
+
+}
+
+#ig
+{
+  margin-left: 375px;
+  width: 200px;
+}
+#ig:hover
+{
+  opacity: 0.8
+}
+
+.contakt2
+{
+
+  display: block;
+  margin-top: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.obr_strok
+{
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+.nadobrat
+{
+  margin-top: 35px;
+  color: white;
+  font-size: 45px;
+}
+.obr_strok2
+{
+  margin-top: 70px;
+  margin-left: -255px;
+  float: left;
+  pointer-events: none;
+}
+#name_input,#tel_input,#surname_input,#Em_input,#tema_input,#soobshenie_input
+{
+background-color: black;
+border: 1px solid black;
+border-bottom: 1px solid white;
+color: white;
+pointer-events: all;
+}
+#tel_input
+{
+
+  margin-top: 2px;
+
+}
+
+#Em_user,#Em_input
+{
+  margin-left: 135px;
+}
+
+
+
+#obr_strok3
+{
+  margin-left: 10px;
+}
+#tema_user
+{
+  display: block;
+
+}
+#tema_input
+{
+  width: 250px;
+}
+
+#soobshenie_input
+{
+  margin-left: 10px;
+  resize: none;
+}
+#soobshenie_user
+{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#button_2
+{
+display: block;
+  margin-top: 10px;
+  color: black;
+  background-color: silver;
+  width: 257px;
+  margin-left: 10px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+#last_meny
+{
+  margin-right: 40px;
+}
+
+
+#button_2:hover
+{
+  cursor: pointer;
+  color: white;
+  background-color: #474A51;
+  transition: 0.5s;
+}
+
+#mane_form
+{
+  width: 100%;
+  height: 100%;
+}
+
+#footer
+{  
+  float: left;
+  color: #fff;
+  background-color: black;
+  width: 100%;
+  height: 600px;
+  float:left;
+}
+@media(min-width:0) and (max-width:1500px)
+{
+  #mane_txt
+  {
+    left: 20%;
+  }
+  .service
+  {
+    margin: -10px;
+  }
+ 
+  #first_service
+  {
+    margin-left: 9%;
+  }
+  #ig
+  {
+    margin-left: 30%;
+  }
+  #img_mane_1
+  {
+    width: 100%;
+  }
+  #img_mane_2
+  {
+    width: 0px;
+  }
+  #o_nas_txt3
+  {
+    font-size: 13px;
+  }
+
+
+}
